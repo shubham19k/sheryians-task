@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(222, 245, 245);
+}
+html, body{
+    width: 100%;
+    padding: 20px 70px;
+    background-image: url(tour.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name{
+    font-size: 11px;
+    display: flex;
+    gap: 55px;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    padding-top: 50px;
+    position: relative;
+}
+.leftside{
+    width: 50%;
+    padding-right: 100px;
+}
+.leftside >h6{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.leftside >p{
+    padding-top: 20px;
+}
+.rigthside{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+button{
+    font-size: 15px;
+    background-color: rgb(37, 184, 37);
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}

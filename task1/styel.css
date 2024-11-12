@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landingpage{
+    width: 70%;
+    height: 80%;
+    /* background-color: rgb(46, 176, 216); */
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.418);
+    position: relative;
+    border-radius: 30px;
+}
+.rigth{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(240, 233, 233);
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.singuppage{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 200px; */
+    /* margin-top: 110px; */
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+    font-size: 40px;
+    color: rgb(20, 255, 118);
+    /* box-shadow: 0px 0px 5px white; */
+    
+}
+.singuppage > input{
+    width: 250px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.61);
+    border: none;
+}
+.singuppage >label{
+    font-size: 15px;
+}
+.leftpage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+.leftpage > img{
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+}
+button{
+    width: 100px;
+    color: black;
+    background-color: rgb(5, 70, 248);
+    /* margin: auto; */
+    margin-left: 80px;
+    margin-top: 15px;
+    border: none;
+    padding: 3px 25px;
+}
