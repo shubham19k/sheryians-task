@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(89, 94, 94);
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+.page1{
+    width: 100%;
+    position: relative;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(219, 202, 158);
+}
+.page1 .left{
+    width: 45%;
+    text-align: center;
+}
+.page1 .left .uper img{
+    width: 250px;
+    aspect-ratio: 4/5;
+    padding: 3px;
+}
+.page1 .left h2{
+    font-size: 40px;
+    margin: 10px;
+}
+.page1 .left p{
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 20px;
+
+}
+
+.page1 .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    padding-right: 60px;
+}
+.page1 .right p{
+    text-align: justify;
+}
+.page1 .right .h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 250px;
+    line-height: 40px;
+}
+.page1 .right .last-img {
+    width: 100%;
+    text-align: end;
+    margin-top: 30px;
+}
+.page1 .right .last-img img{
+    width: 700px;
+    margin-top: 20px;
+}
+.page1 .pera{
+    text-align: justify;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.lower-part p{
+    margin-top: 50px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 700px;
+}
+
+
