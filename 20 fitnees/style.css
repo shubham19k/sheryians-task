@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(53, 48, 27);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+nav h1{
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(198, 236, 198);
+}
+nav span{
+    color: rgb(12, 38, 124);
+    font-size: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.page1{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    margin-top: 90px;
+}
+.left-side{
+    width: 50%;
+    margin-left: 130px;  
+    padding-top: 70px;
+    /* background-color: aqua; */
+}
+.left-side h6{
+    font-size: 20px;
+    color: rgb(112, 7, 0);
+}
+.left-side h1{
+    font-size: 50px;
+    font-style: italic;
+    color: darkgoldenrod;
+}
+.left-side p{
+    font-size: 15px;
+    padding-right: 250px;
+    color: rgb(247, 239, 239);
+    font-weight: 700;
+}
+.left-side button{
+    background-color: cadetblue;
+    border: none;
+    margin-top: 30px;
+    padding: 5px 12px;
+    font-weight: 700;
+}
+.right{
+    width: 50%;
+}
+.right img{
+    width: 300px;
+    position: absolute;
+    top: -95px;
+    right: 35px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
