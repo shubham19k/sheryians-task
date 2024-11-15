@@ -19,7 +19,6 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-
 .uperdiv > ul > li{
     font-size: 15px;
     list-style-type: none;
